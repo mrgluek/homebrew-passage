@@ -5,23 +5,23 @@ class PassageCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/mrgluek/passage/releases/download/v0.9.2/passage-cli-0.9.2-darwin-arm64.tar.gz"
-      sha256 "c7e61fc67ac1a8075f769c066c1f77c1a79915c3625391f40b72f405590a5ea0"
+      url "https://github.com/mrgluek/passage/releases/download/v0.9.3/passage-cli-0.9.3-darwin-arm64.tar.gz"
+      sha256 "2227daa850e558bc18c99f35fa1fb64dba7efe21d006be9766afe553dd8dcd3a"
     end
     on_intel do
-      url "https://github.com/mrgluek/passage/releases/download/v0.9.2/passage-cli-0.9.2-darwin-amd64.tar.gz"
-      sha256 "3f7e0bf6c68095270f2dce521b2645d01b009356deb303d1dd904bb9019bfb72"
+      url "https://github.com/mrgluek/passage/releases/download/v0.9.3/passage-cli-0.9.3-darwin-amd64.tar.gz"
+      sha256 "ed23bae448ff68c2434a094395b934faab0d93fc66a8a52a89b64fb4bcc85c94"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mrgluek/passage/releases/download/v0.9.2/passage-cli-0.9.2-linux-arm64.tar.gz"
-      sha256 "d0c667c435abffdea381881ede8ad71365a4331a189cede79f57a1040ec79e25"
+      url "https://github.com/mrgluek/passage/releases/download/v0.9.3/passage-cli-0.9.3-linux-arm64.tar.gz"
+      sha256 "cea756d9400251725f06c9987584d1c30851772981aa60a678f1d58baeb7ae47"
     end
     on_intel do
-      url "https://github.com/mrgluek/passage/releases/download/v0.9.2/passage-cli-0.9.2-linux-amd64.tar.gz"
-      sha256 "d24bf6bb6a93ad7119e15302c2675953663d6d6d8d58dfbf83793e4726167b4c"
+      url "https://github.com/mrgluek/passage/releases/download/v0.9.3/passage-cli-0.9.3-linux-amd64.tar.gz"
+      sha256 "b24f38f3bf4031786a06820c4e620c28e27021fdd96904591c48ecbd24e28130"
     end
   end
 
