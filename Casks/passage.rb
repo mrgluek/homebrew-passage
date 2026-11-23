@@ -1,9 +1,9 @@
 cask "passage" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.9.5"
-  sha256 arm:   "690abcf5f9d4c259af179fbba0714c555d57be63be42acfee6666c6b6f51fe33",
-         intel: "b6cdbb2f61af10ca8632cde29c8907aea69c0e8cd2af3d3a499e8210d1e960ac"
+  version "0.9.6"
+  sha256 arm:   "c6b7d64348c15de23198a92639233dd0636227a912e08832207e043db6689ced",
+         intel: "6dbbdb27c32c3afc8e2abba96adbde5f58579ec472049a7ab147be06d860629d"
 
   url "https://github.com/mrgluek/passage/releases/download/v#{version}/passage-#{version}-darwin-#{arch}.zip"
   name "Passage"
